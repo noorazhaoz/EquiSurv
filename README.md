@@ -24,7 +24,7 @@ The datasets used for this project fall into two categories: medical and non-med
 |         Dataset        |          Source        |
 |------------------------|------------------------|
 | Employee Turnover      | [Kaggle Dataset](https://www.kaggle.com/datasets/davinwijaya/employee-turnover) |
-| Customer Subscription  | [Kaggle Dataset](https://www.kaggle.com/ datasets/gsagar12/dspp1) |
+| Customer Subscription  | [Kaggle Dataset](https://www.kaggle.com/datasets/gsagar12/dspp1) |
 
 
 ## Methods
