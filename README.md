@@ -8,7 +8,21 @@ This project adapts and extends several pre-processing and post-processing appro
 We conduct experimental studies using both medical and non-medical datasets to assess whether and to what extent the proposed methods improve fairness. Our work considers the trade-offs among proposed methods in terms of group fairness, individual fairness, and predictive performance.
 
 ## Data 
-The datasets used for this project fall into two categories: medical and non-medical data. Further information on these datasets can be found in the respective folders. 
+The datasets used for this project fall into two categories: medical and non-medical data. 
+
+### Medical Data:
+
+| Dataset Name | Source |
+|--------------|--------|
+| FLCHAIN      | [scikit-survival Python package](https://github.com/sebp/scikit-survival) |
+| ...          | ...    |
+
+### Non-Medical Data:
+
+| Dataset Name | Source |
+|--------------|--------|
+| ...          | ...    |
+| ...          | ...    |
 
 ## Methods
 
