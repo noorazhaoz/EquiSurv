@@ -16,7 +16,7 @@ The datasets used for this project fall into two categories: medical and non-med
 |---------|--------|
 | FLCHAIN | [scikit-survival Python package](https://github.com/sebp/scikit-survival) |
 | NAFLD1  | [survival package in R](https://cran.r-project.org/web/packages/survival/index.html) |
-| Tumor   | [pammtools package in R](https://cran.r-project.org/web/packages/pammtools/index.html) |
+| TUMOR   | [pammtools package in R](https://cran.r-project.org/web/packages/pammtools/index.html) |
 | WHAS500 | [scikit-survival Python package](https://github.com/sebp/scikit-survival) |
 
 ### Non-Medical Data:
