@@ -9,3 +9,17 @@ We conduct experimental studies using both medical and non-medical datasets to a
 
 ## Data 
 The datasets used for this project fall into two categories: medical and non-medical data. Further information on these datasets can be found in the respective folders. 
+
+## Methods
+
+Our approach includes both pre-processing and post-processing methods:
+
+### Pre-processing methods
+1. **Disparate Impact Remover:** Adjusts the distribution of ordinal non-sensitive features while preserving original ranks.
+2. **Data Augmentation with Identical Copies:** Creates identical copies of each training instance for all sensitive attribute values.
+3. **Correlation Remover:** This method aims to eliminate the linear dependence between non-sensitive and sensitive attributes, while keeping as much detail as possible from the original data. 
+
+4. **Sampling:** Divides the data set based on the sensitive attribute and class label, and samples each group separately until the expected group size is reached.
+
+### Post-processing methods
+1. **Post-processing by controlling for sensitive attributes:** Involves fitting a model with both sensitive and non-sensitive attributes as predictors. The fitted model is then averaged across the values of sensitive attributes in the population.
